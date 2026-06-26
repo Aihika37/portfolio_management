@@ -1,0 +1,99 @@
+MODEL COMPARISON
+----------------------------------------------------------------------------------------------------
+GLOBAL_MEAN_VARIANCE_PORTFOLIO Return=0.2400 Risk=0.1670 Sharpe=1.1380
+Weights:
+  HCLTECH.NS   6.18%
+  SUNPHARMA.NS  12.01%
+  TECHM.NS    23.30%
+  WIPRO.NS    11.90%
+  APOLLOHOSP.NS  20.99%
+  INFY.NS     -0.05%
+  DRREDDY.NS   5.95%
+  ICICIBANK.NS  14.06%
+  HDFCBANK.NS  -1.17%
+  BHARTIARTL.NS   6.83%
+----------------------------------------------------------------------------------------------------
+WITH_A_GIVEN_RETURN            Return=0.2400 Risk=0.1670 Sharpe=1.1380
+Weights:
+  HCLTECH.NS   6.19%
+  SUNPHARMA.NS  12.02%
+  TECHM.NS    23.29%
+  WIPRO.NS    11.92%
+  APOLLOHOSP.NS  20.95%
+  INFY.NS     -0.04%
+  DRREDDY.NS   5.95%
+  ICICIBANK.NS  14.07%
+  HDFCBANK.NS  -1.18%
+  BHARTIARTL.NS   6.82%
+----------------------------------------------------------------------------------------------------
+LONG_ONLY_MIN_VARIANCE         Return=0.2390 Risk=0.1670 Sharpe=1.1320
+Weights:
+  HCLTECH.NS   6.10%
+  SUNPHARMA.NS  12.00%
+  TECHM.NS    23.40%
+  WIPRO.NS    11.40%
+  APOLLOHOSP.NS  21.00%
+  INFY.NS      0.00%
+  DRREDDY.NS   5.70%
+  ICICIBANK.NS  13.80%
+  HDFCBANK.NS   0.00%
+  BHARTIARTL.NS   6.50%
+----------------------------------------------------------------------------------------------------
+WITH_RETURN_GREATER_THAN_SPECIFIC_VALUE Return=0.2400 Risk=0.1670 Sharpe=1.1370
+Weights:
+  HCLTECH.NS   6.20%
+  SUNPHARMA.NS  12.00%
+  TECHM.NS    23.40%
+  WIPRO.NS    11.80%
+  APOLLOHOSP.NS  21.00%
+  INFY.NS      0.00%
+  DRREDDY.NS   6.10%
+  ICICIBANK.NS  13.90%
+  HDFCBANK.NS  -1.20%
+  BHARTIARTL.NS   6.90%
+----------------------------------------------------------------------------------------------------
+USING_NEURAL_NETWORK           Return=0.2566 Risk=0.1761 Sharpe=1.1730
+Weights:
+  HCLTECH.NS  10.03%
+  SUNPHARMA.NS  10.02%
+  TECHM.NS    10.02%
+  WIPRO.NS    10.01%
+  APOLLOHOSP.NS  10.00%
+  INFY.NS     10.00%
+  DRREDDY.NS  10.00%
+  ICICIBANK.NS  10.00%
+  HDFCBANK.NS   9.98%
+  BHARTIARTL.NS   9.95%
+----------------------------------------------------------------------------------------------------
+USING_XGBOOST                  Return=0.2567 Risk=0.1761 Sharpe=1.1740
+Weights:
+  HCLTECH.NS  10.09%
+  SUNPHARMA.NS  10.08%
+  TECHM.NS    10.05%
+  WIPRO.NS    10.05%
+  APOLLOHOSP.NS  10.02%
+  INFY.NS      9.98%
+  DRREDDY.NS   9.97%
+  ICICIBANK.NS   9.94%
+  HDFCBANK.NS   9.92%
+  BHARTIARTL.NS   9.90%
+----------------------------------------------------------------------------------------------------
+
+BEST STRATEGY: USING_XGBOOST
+
+RECOMMENDED PORTFOLIO
+--------------------------------------------------
+HCLTECH.NS          10.09%
+SUNPHARMA.NS        10.08%
+TECHM.NS            10.05%
+WIPRO.NS            10.05%
+APOLLOHOSP.NS       10.02%
+INFY.NS             9.98%
+DRREDDY.NS          9.97%
+ICICIBANK.NS        9.94%
+HDFCBANK.NS         9.92%
+BHARTIARTL.NS       9.90%
+
+Expected Return: 25.67 %
+Risk: 0.18
+Sharpe: 1.17
