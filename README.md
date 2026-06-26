@@ -110,8 +110,8 @@ Example results:
 | Portfolio | Expected Return | Risk |
 |------------|----------------|--------|
 | Global Minimum Variance | ~24% | ~16% |
-| Neural Network Portfolio | ~28% | ~18% |
-| XGBoost Portfolio | ~28% | ~18% |
+| Neural Network Portfolio | ~26% | ~18% |
+| XGBoost Portfolio | ~26% | ~18% |
 
 Machine learning-based portfolios achieved higher expected returns while maintaining competitive levels of risk.
 
